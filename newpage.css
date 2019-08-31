@@ -1,0 +1,33 @@
+h1 { 
+	color:red;
+}
+
+h1{ background: rgb(50,0,20);
+	border: 8px dashed black;
+
+}
+
+
+
+h2 { 
+	color: rgb(20,50,41);
+	background: skyblue;
+	border-color: green;
+	border-width: 6px;
+	border-style: solid;
+}
+
+body{
+	background: pink;
+}
+li {
+	color: brown;
+	border: 1px dashed black;
+}
+h3{
+	color: blue;
+	background: orange;
+}
+#no3 { 
+	background: lightgreen;
+color: black; }
