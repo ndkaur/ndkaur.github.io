@@ -1,33 +1,60 @@
-h1 { 
-	color:red;
-}
-
-h1{ background: rgb(50,0,20);
-	border: 8px dashed black;
-
-}
-
-
-
-h2 { 
-	color: rgb(20,50,41);
-	background: skyblue;
-	border-color: green;
-	border-width: 6px;
-	border-style: solid;
-}
-
 body{
-	background: pink;
+	background-color:black;
+    position: relative;
+	min-height: 380px
+	background-position:center;
+	background-size: cover;
+    background-attachment: fixed;
+	background-repeat: no-repeat; }
+
+.button {
+	color:white;
+}  
+
+
+
+
+#mainNavbar {
+	position: absolute; 
+    color: grey fill ;
 }
-li {
-	color: brown;
-	border: 1px dashed black;
+	
+a {
+	color: white;
+	font-size: 1.5rem;
+	font-weight:200; }
+
+.nav{
+	background-color:grey;
+	padding :0;
+	margin:0;
+	overflow: hidden;
 }
-h3{
-	color: blue;
-	background: orange;
-}
-#no3 { 
-	background: lightgreen;
-color: black; }
+ 
+.navbar-brand {
+	font-size: 1.5rem; }
+
+
+a:hover{
+	color: #00ffff ; }
+
+#mainNavbar .nav-link {
+	color: white;
+	font-size: 1.5rem;
+	font-weight:200; }
+
+.navbar-nav{ 
+float:right; }
+
+
+#mainNavbar .nav-link:hover  {
+	color:  #00ffff;  
+    
+	 }
+
+
+
+
+
+
+
