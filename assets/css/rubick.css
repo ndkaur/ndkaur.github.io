@@ -466,8 +466,8 @@ body > .navbar-collapse a {
   color: #FFFFFF;
 }
 .navbar-transparent .navbar-nav > li > a:not(.btn), [class*="navbar-ct"] .navbar-nav > li > a:not(.btn) {
-  color: #FFFFFF;
-  border-color: #FFFFFF;
+  color: #000000;
+  border-color: #757373;
   opacity: 1;
   filter: alpha(opacity=100);
 }
