@@ -1850,7 +1850,7 @@ a:hover {
 }
 .section .text-area {
   padding: 4.375em 0;
-  position: relative;
+  /* position: relative; */
   z-index: 3;
   display: block;
   background-color: #FFFFFF;
@@ -3458,7 +3458,7 @@ body.noscroll {
 .section-contact-1 h4,
 .section-contact-2 h4,
 .section-contact-3 h4 {
-  margin-bottom: 5px;
+  margin-bottom: 1px;
 }
 
 .section-contact-1 .form-control,
@@ -3474,14 +3474,14 @@ body.noscroll {
   margin-top: 90px;
 }
 
-.section-contact-2 .contact-form {
+ .section-contact-2 .contact-form {
   margin-top: 20px;
-}
-.section-contact-2 label {
+} 
+ .section-contact-2 label {
   font-weight: 400;
   font-size: 16px;
-  /*         margin-left: 10px; */
-}
+          margin-left: 10px;
+} 
 
 .section-contact-3 {
   position: relative;
@@ -3499,7 +3499,7 @@ body.noscroll {
   height: 570px;
   background-color: rgba(255, 255, 255, 0.75);
   z-index: 3;
-  padding: 20px 20px 20px 60px;
+  padding: 10px 10px 10px 60px;
 }
 .section-contact-3 .contact-container .address-container .address {
   text-align: center;
